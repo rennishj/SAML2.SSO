@@ -1,0 +1,108 @@
+<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0" IssueInstant="2017-09-15T01:04:45.3967455Z" Destination="Recipient" xmlns="urn:oasis:names:tc:SAML:2.0:protocol">
+	<saml:Issuer>CMMTest.com</saml:Issuer>
+	<Status>
+		<StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+	</Status>
+	<saml:Assertion Version="2.0" ID="_f3d205ac-63ec-44a7-9d84-0c67f2aa5738" IssueInstant="2017-09-15T01:04:45.3967455Z">
+		<saml:Issuer>CMMTest.com</saml:Issuer>
+		<saml:Subject>
+			<saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"/>
+			<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+				<saml:SubjectConfirmationData Recipient="Recipient" NotOnOrAfter="2017-09-15T01:09:45.3967455Z" />
+			</saml:SubjectConfirmation>
+		</saml:Subject>
+		<saml:Conditions NotBefore="2017-09-15T01:04:45.3967455Z" NotOnOrAfter="2017-09-15T01:09:45.3967455Z">
+			<saml:AudienceRestriction>
+				<saml:Audience>Audience</saml:Audience>
+			</saml:AudienceRestriction>
+		</saml:Conditions>
+		<saml:AuthnStatement AuthnInstant="2017-09-15T01:04:45.3967455Z" SessionIndex="_f3d205ac-63ec-44a7-9d84-0c67f2aa5738">
+			<saml:AuthnContext>
+				<saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+			</saml:AuthnContext>
+		</saml:AuthnStatement>
+		<saml:AttributeStatement>
+			<saml:Attribute Name="UserID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">789234</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="Username" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">user_3</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="UserFirstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Rakesh</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="UserMiddleInitial" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string"/>
+			</saml:Attribute>
+			<saml:Attribute Name="UserLastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Chandrasehkar</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="UserCredentials" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string"/>
+			</saml:Attribute>
+			<saml:Attribute Name="UserPrefix" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string"/>
+			</saml:Attribute>
+			<saml:Attribute Name="UserSuffix" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string"/>
+			</saml:Attribute>
+			<saml:Attribute Name="UserDisplayName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Dr. David Chandra</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="UserEmail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">user_3@bar.net</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="UserPhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">(614) 555-5555</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="UserFax" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">(614) 555-6666</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">89652387</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Spraynard Group</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupAddress1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Wonk Ave.</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupAddress2" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Ste 23</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupCity" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">Columbus</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupState" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">OH</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupZip" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">43212</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupFax" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">(614) 555-6666</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupPhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string">(614) 555-7777</saml:AttributeValue>
+			</saml:Attribute>
+			<saml:Attribute Name="GroupContactPerson" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+				<saml:AttributeValue xsi:type="xsd:string"/>
+			</saml:Attribute>
+		</saml:AttributeStatement>
+	</saml:Assertion>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<Reference URI="#_f3d205ac-63ec-44a7-9d84-0c67f2aa5738">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+					<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<DigestValue>4+ZwA/czJ6/sAg+cxqS8fG5gMYU=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>eu/VQt8PgTy4M1NvBrbSkpMzZpVcMe2zkWjaLLp/xsLnOPJXhWwWZUAfKRyov7GZLmXbPxGseVzU1fWlsYkgLAuCq81ulrXfGxWiXomKL+Ujn89614TtvXivd0sXBihXSHsO2P2Y/cAy9ViYTHxJ/XgdBLWWkEGuNVRab0ay+rBr65aXZcKxv4zPQIwOm6wJ5uA1/4h6RwOU2P8eoL76vQ5vCnEP8eV9oVlF1ha5yfN4mzs9VkEAaEdZW109LI6cxUa/aUi6ON1zAhrJIreB7RfRZwC0k8qmeWgOq3gz1SyrdRbHCVjWkH3JzRRd2ATXW+YXPXZpcdr7XGy7PNCY5w==</SignatureValue>
+	</Signature>
+</Response>
